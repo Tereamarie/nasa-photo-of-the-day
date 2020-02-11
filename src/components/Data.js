@@ -6,7 +6,7 @@ const DataDiv = styled.div`
   margin: 10px auto;
   padding: 2%;
   max-width: 800px;
-  color: white;
+  color: black;
   border: 3px solid blue;
   border-radius: 50px;
   box-shadow:  20px 10px black;
@@ -19,9 +19,11 @@ text-align: center;
 `;
 const StyledH2 = styled.h2`
 color: white;
+background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 `;
 const StyledH3 = styled.h3`
 color: white;
+background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 `;
 
 function Data(props) {
